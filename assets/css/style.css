@@ -787,7 +787,8 @@ services
 }
 
 .services .item:hover {
-  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.06);
+  border: 1px solid var(--main-color);
+  box-shadow: 0px 0px 5px  rgba(0, 0, 0, 0.5);
 }
 
 .services .item .icon {
