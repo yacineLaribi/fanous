@@ -786,13 +786,20 @@ services
 }
 
 .services .item .icon {
+  padding: 5px;
   max-width: 75px;
   margin: 0 auto;
   min-height: 80px;
   line-height: 80px;
   vertical-align: middle;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+.services .item .icon img{
+  border-radius: 15px;
 
+}
 .services .item h4 {
   margin-top: 15px;
   margin-bottom: 15px;
@@ -1132,7 +1139,7 @@ contact us
 */
 
 section.contact-us {
-  background-image: url(../images/footer-bg1.png);
+  background-image: url(../images/footer-bg1\ \(2\).png);
   background-position: center bottom;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -1440,13 +1447,13 @@ section.our-team .naccs .menu div h4 {
 section.our-team .naccs .menu div span {
   font-size: 12px;
   text-transform: uppercase;
-  color: #dc8cdb;
+  color: var(--main-color);
   font-weight: 700;
   display: block;
 }
 
 section.our-team .naccs .menu div.active h4 {
-  color: #dc8cdb;
+  color: var(--main-color);
 }
 
 section.our-team ul.nacc {
